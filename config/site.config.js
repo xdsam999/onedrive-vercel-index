@@ -7,7 +7,7 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You MUST put this in your Vercel's environment variable KEY is 'USER_PRINCIPAL_NAME' and VALUE is 'your Microsoft account'.
   // your email being exposed in public.
-  userPrincipalName: process.env.USER_PRINCIPAL_NAME || '',
+  userPrincipalName: process.env.USER_PRINCIPAL_NAME || 'xdsam999@hotmail.com',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -17,10 +17,10 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Postman1year's OneDrive",
+  title: "Vincent's OneDrive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: process.env.BASE_DIRECTORY || '/',
+  baseDirectory: '/Public',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -66,3 +66,4 @@ module.exports = {
   // without timezone and replacing T with space.
   datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
 }
+
